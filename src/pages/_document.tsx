@@ -5,13 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <style>
-        {`
-          [data-theme='dark'] {
-            /* Estilos para el tema oscuro */
-            background-color: black;
-            color: white;
-          }
-        `}
+          background-color: black;
       </style>
       <body>
         <Main />
