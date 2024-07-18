@@ -52,14 +52,15 @@ export default function Home({ product }: HomeProps) {
         <section className="w-full mt-0 inset-0">
           <Featured product={product}/>
         </section>
-      {/* <--------------------------------- Third Section: Experimental ---------------------------------> */}
-        <section className="mt-10">
-          <NewProducts />
-        </section>
       {/* <------------------------------- Second Section: Lamp Component (Maybe in this home page it's better hide this ) --------------------------------> */} 
         <section className="w-full mt-0 inset-0 h-screen">
           <LampComponent/>
         </section>
+      {/* <--------------------------------- Third Section: Experimental ---------------------------------> */}
+        <section className="mt-10">
+          <NewProducts />
+        </section>
+     
       
     </main>
   );

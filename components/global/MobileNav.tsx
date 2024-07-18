@@ -35,33 +35,33 @@ const MobileNav = () => {
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/accesorios')
+                      closeOnCurrent('/proyecto')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
-                    href='/accesorios'>
-                    Accesorios
+                    href='/proyecto'>
+                    Proyecto
                   </Link>
                 </li>
                 <li className='my-3 h-px w-full bg-zinc-700' />
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/juguetes')
+                      closeOnCurrent('/energia')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
-                    href='/juguetes'>
-                    Juguetes
+                    href='/energia'>
+                    Energía
                   </Link>
                 </li>
                 <li className='my-3 h-px w-full bg-zinc-700' />
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/nosotros')
+                      closeOnCurrent('/innovacion')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
-                    href='/bienestar'>
-                    Bienestar
+                    href='/innovacion'>
+                    Innovación
                   </Link>
                 </li>
               </>
