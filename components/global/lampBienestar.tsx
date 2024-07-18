@@ -18,8 +18,7 @@ export function LampComponentBienestar() {
         }}
         className="mt-[408px] md:mt-[360px] bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Cuidalo 
-        <br /> y mantenlo feliz :)
+        Innovación
       </motion.h1>
     </LampContainer>
   )

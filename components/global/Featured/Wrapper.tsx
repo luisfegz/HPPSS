@@ -9,7 +9,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
     <div 
         className="
             grid-cols-2 
-            md:grid-cols-[280px_minmax(200px,_1fr)] 
+            md:grid-cols-[320px_minmax(280px,_1fr)] 
             lg:grid-cols-[395px_minmax(425px,_1fr)] 
             gap-[2px] 
             md:gap-3

@@ -38,35 +38,36 @@ const Navbar = () => {
             >
                 <li>
                     <Link
-                        href='/accesorios'
+                        href='/proyecto'
                         className={buttonVariants({
                             variant: 'ghost',
                             size: 'sm',
                         })}
                     >
-                        Accesorios
+                      Proyecto
                     </Link>
                 </li>
                 <li>
                     <Link
-                        href='/juguetes'
+                        href='/energia'
                         className={buttonVariants({
                             variant: 'ghost',
                             size: 'sm',
                         })}
                     >
-                        Juguetes
+                        Energía
                     </Link>
                 </li>
                 <li>
                     <Link
-                        href='/bienestar'
+                        href='/innovacion'
                         className={buttonVariants({
                             variant: 'ghost',
                             size: 'sm',
                         })}
                     >
-                        Bienestar
+                        
+                        Innovación
                     </Link>
                 </li>
             </ul>
@@ -78,20 +79,9 @@ const Navbar = () => {
                   gap-[8px]
               '
           >
-            {/* Offer button (Link) */} 
+            {/* Offer button (Link) */}    
             <Link 
-              href='/ofertas' 
-              className="
-                inline-flex h-12 text-xl animate-shimmer items-center justify-center z-40
-                rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
-                bg-[length:200%_100%] px-3.5 font-normal md:font-medium text-slate-100 transition-colors focus:outline-none 
-                focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
-              "
-            >
-              <SearchIcon />
-            </Link>          
-            <Link 
-              href='/ofertas' 
+              href='/contactanos' 
               className="
                 inline-flex h-12 text-base md:text-xl animate-shimmer items-center justify-center z-40
                 rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
@@ -99,19 +89,10 @@ const Navbar = () => {
                 focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
               "
             >
-              Ofertas
+              
+              Contáctanos
             </Link>
-            <Link 
-              href='/ofertas' 
-              className="
-                inline-flex h-12 text-xl animate-shimmer items-center justify-center z-40
-                rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
-                bg-[length:200%_100%] px-3.5 font-normal md:font-medium text-slate-100 transition-colors focus:outline-none 
-                focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
-              "
-            >
-              <CartShop />
-            </Link>
+           
             {/* End Offer button */}
             
           </aside>
