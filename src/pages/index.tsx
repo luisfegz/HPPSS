@@ -37,8 +37,8 @@ export default function Home({ product }: HomeProps) {
                   
                   <h1 
                     className="
-                      from-white to-neutral-600 font-medium font-bold text-xl 
-                      md:text-8xl bg-clip-text text-transparent bg-gradient-to-b 
+                      from-white to-neutral-600 font-medium text-xl 
+                      md:text-4xl mb-12 bg-clip-text text-transparent bg-gradient-to-b 
                     "
                   >
                     HPPS offers innovative, sustainable aquaculture solutions that optimize water, energy, and space for both freshwater and saltwater fish farming
