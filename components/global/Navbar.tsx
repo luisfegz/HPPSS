@@ -19,8 +19,8 @@ const Navbar = () => {
             <Image
                 src="/favicon.png"
                 alt="Champion Store Logo"
-                width={42}
-                height={42}
+                width={58}
+                height={58}
                 className="shadow-sm"
             />
             <span className='w-full font-semibold text-black-500'></span>
